@@ -14,4 +14,8 @@ export class User {
 
     @Column({ type: 'varchar', length: 255 })
     lastName;
+
+    @Column({ type: 'varchar', length: 255 })
+    docType;
+
 }
